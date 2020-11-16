@@ -4,8 +4,8 @@ const Home = () => {
 	return (
 		<div>
 			<h1>Home</h1>
-			<p>{uid}</p>
-			<p>{username}</p>
+			{/* <p>{uid}</p>
+			<p>{username}</p> */}
 		</div>
 	);
 };
