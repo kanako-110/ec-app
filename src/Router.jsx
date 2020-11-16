@@ -7,7 +7,7 @@ const Router = () => {
 		<Switch>
 			<Route exact path="/login" component={Login} />
 			{/* ()?によって、()内のものが合ってもなくてもいいよ～と設定している */}
-			<Route exact path="(/)?" component={Home} />
+			<Route exact path="/" component={Home} />
 		</Switch>
 	);
 };
